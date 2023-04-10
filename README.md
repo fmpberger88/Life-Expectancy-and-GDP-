@@ -776,9 +776,9 @@ print("Variance: %.3f" % var)
     Variance: 0.278
     
 
-The output of bias_variance_decomp() shows that the mean squared error (MSE) of your model is 9.063, which is higher than the MSE obtained using mean_squared_error() previously. This is because bias_variance_decomp() considers the decomposition of the error into bias, variance, and irreducible error.
+The output of bias_variance_decomp() shows that the mean squared error (MSE) of your model is 9.017, which is higher than the MSE obtained using mean_squared_error() previously. This is because bias_variance_decomp() considers the decomposition of the error into bias, variance, and irreducible error.
 
-The bias of the model is 8.785, which indicates that the model is underfitting the data. This means that the model is not complex enough to capture the underlying patterns in the data.
+The bias of the model is 8.739, which indicates that the model is underfitting the data. This means that the model is not complex enough to capture the underlying patterns in the data.
 
 The variance of the model is 0.278, which is relatively low compared to the bias. This suggests that the model is not overfitting the data.
 
